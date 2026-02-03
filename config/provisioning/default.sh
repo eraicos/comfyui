@@ -28,7 +28,7 @@ CHECKPOINT_MODELS=(
 )
 
 UNET_MODELS=(
-    "https://civitai.com/api/download/models/2587255?type=Model&format=GGUF&size=full&fp=fp16" # Smooth Mix Wan 2.2 I2V v2.0 GGUF - HIGH Q6_K
+    "https://civitai.com/api/download/models/2587255?type=Model&format=GGUF&size=full&fp=fp16&token=2d5ec4fffd30b03cf318fdaa9b3d7117" # Smooth Mix Wan 2.2 I2V v2.0 GGUF - HIGH Q6_K
     "https://huggingface.co/Bedovyy/dasiwaWAN22I2V14B-GGUF/resolve/RadiantCrush/LowNoise/dasiwaWAN22I2V14B_radiantcrushLow-Q6_K.gguf" # DaSiWa WAN2.2 I2V - radiantcrush LOW Q6_K
 )
 
@@ -41,10 +41,10 @@ CLIP_VISION=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/2073605?type=Model&format=SafeTensor" # WAN General NSFW model - 2.2 HIGH v0.08a nightly
-    "https://civitai.com/api/download/models/2230125?type=Model&format=SafeTensor" # breast play - HIGH v2
+    "https://civitai.com/api/download/models/2073605?type=Model&format=SafeTensor&token=2d5ec4fffd30b03cf318fdaa9b3d7117" # WAN General NSFW model - 2.2 HIGH v0.08a nightly
+    "https://civitai.com/api/download/models/2230125?type=Model&format=SafeTensor&token=2d5ec4fffd30b03cf318fdaa9b3d7117" # breast play - HIGH v2
     "https://huggingface.co/Kijai/WanVideo_comfy/resolve/709844db75d2e15582cf204e9a0b5e12b23a35dd/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank128_bf16.safetensors" # smoothmix 속도 개선 로라
-    "https://civitai.com/api/download/models/2084711?type=Model&format=SafeTensor" # Wan2.1-Anti-Realistic-Transformation
+    "https://civitai.com/api/download/models/2084711?type=Model&format=SafeTensor&token=2d5ec4fffd30b03cf318fdaa9b3d7117" # Wan2.1-Anti-Realistic-Transformation
 )
 
 VAE_MODELS=(
