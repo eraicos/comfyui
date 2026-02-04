@@ -44,7 +44,8 @@ CLIP_VISION=(
 LORA_MODELS=(
     "https://civitai.com/api/download/models/2073605?type=Model&format=SafeTensor" # WAN General NSFW model - 2.2 HIGH v0.08a nightly
     "https://civitai.com/api/download/models/2230125?type=Model&format=SafeTensor" # breast play - HIGH v2
-    "https://huggingface.co/Kijai/WanVideo_comfy/resolve/709844db75d2e15582cf204e9a0b5e12b23a35dd/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank128_bf16.safetensors" # smoothmix 속도 개선 로라
+    ## "https://huggingface.co/Kijai/WanVideo_comfy/resolve/709844db75d2e15582cf204e9a0b5e12b23a35dd/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank128_bf16.safetensors"
+    "https://huggingface.co/MonsterMMORPG/Wan_GGUF/resolve/250a6663d2cd3b7106d5c21ab70badee21f378e7/Wan21_I2V_14B_lightx2v_cfg_step_distill_lora_rank64_fixed.safetensors"
     "https://huggingface.co/xChenNing/Wan21-Anti-Realistic-Transformation/resolve/main/Wan21-Anti-Realistic-Transformation-720p-rank256.safetensors" # Wan2.1-Anti-Realistic-Transformation
 )
 
