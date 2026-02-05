@@ -29,7 +29,8 @@ CHECKPOINT_MODELS=(
 
 UNET_MODELS=(
     ## "https://civitai.com/api/download/models/2587255?type=Model&format=GGUF&size=full&fp=fp16" # Smooth Mix Wan 2.2 I2V v2.0 GGUF - HIGH Q6_K
-    "https://huggingface.co/Bedovyy/smoothMixWan22-I2V-GGUF/resolve/main/HighNoise/smoothMixWan22I2VT2V_i2vHigh-Q6_K.gguf" # smoothMixWan22-I2V-GGUF/HighNoise/smoothMixWan22I2VT2V_i2vHigh-Q6_K.gguf
+    ## "https://huggingface.co/Bedovyy/smoothMixWan22-I2V-GGUF/resolve/main/HighNoise/smoothMixWan22I2VT2V_i2vHigh-Q6_K.gguf" # smoothMixWan22-I2V-GGUF/HighNoise/smoothMixWan22I2VT2V_i2vHigh-Q6_K.gguf
+    "https://huggingface.co/BigDannyPt/WAN-2.2-SmoothMix-GGUF/resolve/main/I2V/v2.0/High/SmoothMix_I2V_v2_High-Q6_K.gguf" # SmoothMix_I2V_v2_High-Q6_K.gguf
     "https://huggingface.co/Bedovyy/dasiwaWAN22I2V14B-GGUF/resolve/RadiantCrush/LowNoise/dasiwaWAN22I2V14B_radiantcrushLow-Q6_K.gguf" # DaSiWa WAN2.2 I2V - radiantcrush LOW Q6_K
 )
 
