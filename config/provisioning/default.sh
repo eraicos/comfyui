@@ -34,6 +34,7 @@ NODES=(
     "https://github.com/jamesWalker55/comfyui-various"
     "https://github.com/royceschultz/ComfyUI-Notifications"
     "https://github.com/kael558/ComfyUI-GGUF-FantasyTalking"
+    "https://github.com/willmiao/ComfyUI-Lora-Manager"
 )
 
 CHECKPOINT_MODELS=(
