@@ -21,20 +21,6 @@ PIP_PACKAGES=(
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/cubiq/ComfyUI_essentials"
-    ## "https://github.com/city96/ComfyUI-GGUF"
-    ## "https://github.com/rgthree/rgthree-comfy"
-    ## "https://github.com/yolain/ComfyUI-Easy-Use"
-    ## "https://github.com/kijai/ComfyUI-KJNodes"
-    ## "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
-    ## "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet"
-    ## "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
-    ## "https://github.com/melMass/comfy_mtb"
-    ## "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
-    ## "https://github.com/Smirnov75/ComfyUI-mxToolkit"
-    ## "https://github.com/jamesWalker55/comfyui-various"
-    ## "https://github.com/royceschultz/ComfyUI-Notifications"
-    ## "https://github.com/kael558/ComfyUI-GGUF-FantasyTalking"
-    ## "https://github.com/willmiao/ComfyUI-Lora-Manager"
 )
 
 CHECKPOINT_MODELS=(
@@ -136,7 +122,7 @@ function provisioning_get_pip_packages() {
 function provisioning_get_nodes() {
     for repo in "${NODES[@]}"; do
         dir="${repo##*/}"
-        path="${WORKSPACE}/ComfyUI/custom_nodes/${dir}"
+        path="/opt/ComfyUI/custom_nodes/${dir}"
         requirements="${path}/requirements.txt"
         if [[ -d $path ]]; then
             if [[ ${AUTO_UPDATE,,} != "false" ]]; then
