@@ -24,8 +24,8 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.red/models/1981116/dasiwa-wan-22-i2v-14b-or-lightspeed-or-safetensors?modelVersionId=2953474" dasiwa snatchkiss high v11
-    "https://civitai.red/models/1981116/dasiwa-wan-22-i2v-14b-or-lightspeed-or-safetensors?modelVersionId=2953485" dasiwa snatchkiss low v11
+    "https://civitai.red/api/download/models/2953474?fileId=2833009" # dasiwa snatchkiss high v11
+    "https://civitai.red/api/download/models/2953485?fileId=2833218" # dasiwa snatchkiss low v11
 )
 
 UNET_MODELS=(
