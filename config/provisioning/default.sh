@@ -24,8 +24,7 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.red/api/download/models/2953474?fileId=2833009" # dasiwa snatchkiss high v11
-    "https://civitai.red/api/download/models/2953485?fileId=2833218" # dasiwa snatchkiss low v11
+    
 )
 
 UNET_MODELS=(
@@ -33,6 +32,8 @@ UNET_MODELS=(
     ## "https://huggingface.co/BigDannyPt/WAN-2.2-SmoothMix-GGUF/resolve/main/I2V/v2.0/High/SmoothMix_I2V_v2_High-Q6_K.gguf"
     ## "https://civitai.red/api/download/models/2520801?fileId=2408635" # WAN 2.2 EnhancedNSFW fastmove v2 q6k h
     ## "https://huggingface.co/Bedovyy/dasiwaWAN22I2V14B-GGUF/resolve/RadiantCrush/LowNoise/dasiwaWAN22I2V14B_radiantcrushLow-Q6_K.gguf" # DaSiWa WAN2.2 I2V - radiantcrush LOW Q6_K
+    "https://huggingface.co/darksidewalker/DaSiWa-WAN2.2-I2V/resolve/main/Distilled/GGUF/v11/DasiwaWAN22I2V14BLightspeed_snatchkissHighV11-Q6_K.gguf" # dasiwa snatchkiss high v11
+    "https://huggingface.co/darksidewalker/DaSiWa-WAN2.2-I2V/resolve/main/Distilled/GGUF/v11/DasiwaWAN22I2V14BLightspeed_snatchkissLowV11-Q6_K.gguf" # dasiwa snatchkiss low v11
 )
 
 TEXT_ENCODERS=(
