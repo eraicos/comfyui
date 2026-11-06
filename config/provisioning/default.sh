@@ -29,11 +29,11 @@ CHECKPOINT_MODELS=(
 
 UNET_MODELS=(
     ## "https://civitai.com/api/download/models/2587255?type=Model&format=GGUF&size=full&fp=fp16" # Smooth Mix Wan 2.2 I2V v2.0 GGUF - HIGH Q6_K
-    ## "https://huggingface.co/BigDannyPt/WAN-2.2-SmoothMix-GGUF/resolve/main/I2V/v2.0/High/SmoothMix_I2V_v2_High-Q6_K.gguf"
+    "https://huggingface.co/BigDannyPt/WAN-2.2-SmoothMix-GGUF/resolve/main/I2V/v2.0/High/SmoothMix_I2V_v2_High-Q6_K.gguf"
     ## "https://civitai.red/api/download/models/2520801?fileId=2408635" # WAN 2.2 EnhancedNSFW fastmove v2 q6k h
-    ## "https://huggingface.co/Bedovyy/dasiwaWAN22I2V14B-GGUF/resolve/RadiantCrush/LowNoise/dasiwaWAN22I2V14B_radiantcrushLow-Q6_K.gguf" # DaSiWa WAN2.2 I2V - radiantcrush LOW Q6_K
-    "https://huggingface.co/darksidewalker/DaSiWa-WAN2.2-I2V/resolve/main/Distilled/GGUF/v11/DasiwaWAN22I2V14BLightspeed_snatchkissHighV11-Q6_K.gguf" # dasiwa snatchkiss high v11
-    "https://huggingface.co/darksidewalker/DaSiWa-WAN2.2-I2V/resolve/main/Distilled/GGUF/v11/DasiwaWAN22I2V14BLightspeed_snatchkissLowV11-Q6_K.gguf" # dasiwa snatchkiss low v11
+    "https://huggingface.co/Bedovyy/dasiwaWAN22I2V14B-GGUF/resolve/RadiantCrush/LowNoise/dasiwaWAN22I2V14B_radiantcrushLow-Q6_K.gguf" # DaSiWa WAN2.2 I2V - radiantcrush LOW Q6_K
+    ## "https://huggingface.co/darksidewalker/DaSiWa-WAN2.2-I2V/resolve/main/Distilled/GGUF/v11/DasiwaWAN22I2V14BLightspeed_snatchkissHighV11-Q6_K.gguf" # dasiwa snatchkiss high v11
+    ## "https://huggingface.co/darksidewalker/DaSiWa-WAN2.2-I2V/resolve/main/Distilled/GGUF/v11/DasiwaWAN22I2V14BLightspeed_snatchkissLowV11-Q6_K.gguf" # dasiwa snatchkiss low v11
 )
 
 TEXT_ENCODERS=(
@@ -45,7 +45,7 @@ CLIP_VISION=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/2073605?type=Model&format=SafeTensor" # WAN General NSFW model - 2.2 HIGH v0.08a nightly
+    "https://civitai.red/api/download/models/2073605?type=Model&format=SafeTensor" # WAN General NSFW model - 2.2 HIGH v0.08a nightly
     "https://civitai.com/api/download/models/2230125?type=Model&format=SafeTensor" # breast play - HIGH v2
     "https://civitai.com/api/download/models/2098405?type=Model&format=SafeTensor" # Wan 2.2/2.1 POV Missionary
     "https://huggingface.co/MonsterMMORPG/Wan_GGUF/resolve/250a6663d2cd3b7106d5c21ab70badee21f378e7/Wan21_I2V_14B_lightx2v_cfg_step_distill_lora_rank64_fixed.safetensors"
